@@ -1,0 +1,32 @@
+{
+  "name": "opscruise",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "node_modules/.bin/nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seratch/bolt-starter.git"
+  },
+  "keywords": [],
+  "author": "@seratch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seratch/bolt-starter/issues"
+  },
+  "homepage": "https://github.com/seratch/bolt-starter#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.0.1",
+    "@slack/webhook": "5.0.3",
+    "dotenv": "^8.2.0",
+    "http": "0.0.1-security",
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}

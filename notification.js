@@ -36,7 +36,7 @@ router.get("/", (req, res) => {
       "The demand_l4_packets_in_cnt metric decreased from 6917.0 to 4092.0,The demand_l4_packets_out_cnt metric decreased from 6921.0 to 4092.0,The demand_l4_bytes_out_cnt metric increased from 998213.0 to 2895754.0",
     anomaly: {
       class: "Machine Learning Runtime",
-      model: "hdbscan",
+      model: "OpsRange",
       explainMetrics: [
         {
           metric: "container_cpu_schedstat_run_seconds_total_per_seconds_c",
